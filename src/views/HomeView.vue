@@ -3,15 +3,17 @@
 import ContactUs from '../components/ContactUs.vue';
 import Services from '../components/Services.vue';
 import Testimonials from '../components/Testimonials.vue';
+import Patners from '../components/Patners.vue';
+import Map from '../components/Map.vue';
 
 
 
 </script>
 
 <template>
-  <main class="mt-72 md:mt-0  container mx-auto ">
+  <main class="mt-72 md:mt-0   ">
 
-    <section>
+    <section class=" container mx-auto">
       <div class=" mt-12 flex flex-col-reverse items-center gap-11  md:flex-row ">
       
         <div class="sm:w-1/2 px-11 md:px-0">
@@ -44,6 +46,14 @@ import Testimonials from '../components/Testimonials.vue';
       <Services />
     </section>
 
+    <!-- Pattners -->
+    <Patners />
+    <!-- Map -->
+    <Map />
+
+
+
+
     <!-- About Us -->
 
   
@@ -55,11 +65,19 @@ import Testimonials from '../components/Testimonials.vue';
         
     </section>
 
+
+
       <!-- Contact Us -->
-      <section>
+
+
+     <section class=" bg-lime-600">
       <ContactUs/>
 
-    </section>
+     </section>
+     
+      
+
+
 
 
   </main>

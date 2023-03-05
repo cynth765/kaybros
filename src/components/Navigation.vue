@@ -3,7 +3,7 @@
         <div class="  bg-gray-100   py-3.5  px-6 shadow  md:flex  justify-between items-center md:w-auto w-full">
             <!-- Logo -->
             <div class="flext  items-center cursor-pointer">
-                <img class="" src="./images/logo.svg" alt="" srcset=""/>
+                <img class="w-16" src="./images/flogo.png" alt="" srcset=""/>
             </div>
 
             <span @click="MenuOPen()" class="absolute right-6 top-1.5 cursor-pointer text-4xl md:hidden">
@@ -18,7 +18,7 @@
                     <a :href="link.link" class="text-xl">{{ link.name }}</a>
                 
                 </li>
-                 <Button />
+               
             
             </ul>
         

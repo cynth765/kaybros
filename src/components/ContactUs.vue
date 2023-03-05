@@ -1,53 +1,90 @@
 <template>
-  <div class="container mx-auto mt-16">
-        <div class=" flex flex-col     space-x-0  px-6 mx-auto    md:flex-row md:space-x-6 ">
-             <!-- Ist -->
-            <div class="flex flex-col items-center sm:items-start space-y-2 mb-4 md:w-1/5 ">
-                <h1 class="text-2xl  font-semibold">What We Do</h1>
-                <p>Audit and Assurance</p>
-                <p>Tax and Regulatory Services</p>
-                <p>Advisory</p>
-                <p>Private Enterprice</p>
-            </div>
 
-            <!-- 2nd -->
-            <div class="flex flex-col items-center sm:items-start  space-y-2 mb-4 md:w-1/5 ">
-                <h1  class="text-2xl  font-semibold">Quick Links</h1>
-                <p>Contact </p>
-                <p>Services</p>
-                <p>Our Team</p>
-               
+<section class="md:h-full flex items-center   text-white   ">
+        <div class="container px-5 py-6 mx-auto">
+         
+            <div class="flex flex-wrap -m-4  ">
+                <div class="p-4 sm:w-1/2 lg:w-1/3">
+                    <div class="h-full    overflow-hidden">
+                  
+                        <div class="p-6  transition duration-300 ease-in">
+                           
+                            <h1 class="text-2xl font-semibold mb-3">Contact us</h1>
+                        
+                            <p class="leading-relaxed mb-3">IKaybros Clobal Consulting Limited </p>
+                            <p class="leading-relaxed mb-3">  Utalii House 10th Floor room 1020</p>
+                            <p class="leading-relaxed mb-3"> P.O. Box 7563-00300</p>
+                            <p class="leading-relaxed mb-3">  Nairobi-Kenya</p>
+                            <p class="leading-relaxed mb-3">  Tell No:+254722612401/+254700136900</p>
+                            <p class="leading-relaxed mb-3">Email : kaybrosglobalconsulting@gmail.com.</p>
 
-            </div>
+                          
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 sm:w-1/2 lg:w-1/3">
+                    <div class="h-full  overflow-hidden">
+                       
+                        <div class="p-6  transition duration-300 ease-in">
+                           
+                            <h1 class="text-2xl font-semibold mb-3">Site Map</h1>
+                            <div class=" flex flex-row space-x-28">
+                                <p class="leading-relaxed mb-3">Home</p>
+                               
+                                <p class="leading-relaxed mb-3">About us</p>
+                                
 
-            <!-- 3rd -->
-            <div class="flex flex-col items-center sm:items-start space-y-2 mb-4 md:w-1/5 " >
-                <h1 class="text-2xl  font-semibold">Get in touch</h1>
-                <p>Contact us</p>
-                <p>Help</p>
-                <h1 class="text-2xl  font-semibold">About Us</h1>
-                <p>Contact us</p>
-                <p>Help</p>
+                            </div>
+                          
+                            <div class=" flex flex-row space-x-28">
+                                <p class="leading-relaxed mb-3">Services</p>
+                                <p class="leading-relaxed mb-3">Contact us</p>
+                            </div>
+                          
+                            <div class="flex items-center flex-wrap  space-x-3   ">
+                                <span class=" ">
+                                    <img  class="h-12" src="./images/facebook.png" alt="" srcset="">
+                                </span>
+                             
+                                <span class="">
+                                    <img  class="h-12" src="./images/LinkedIng.png" alt="" srcset="">
+                                </span>
+                                <span class="">
+                                    <img  class="h-12 rounded-full" src="./images/download.png" alt="" srcset="">
+
+                                 
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 sm:w-1/2 lg:w-1/3">
+                    <div class="h-full  overflow-hidden">
+                     
+                        <div class="p-6  transition duration-300 ease-in">
+                            <h1 class="text-2xl font-semibold mb-3">Subscribe to our news letter</h1>
+                            <div class="flex flex-wrap -mx-3 mb-6">
+                                <div class="w-full px-3">
+                                  
+                                  <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-password" type="password" placeholder="Email Address">
+
+                                </div>
+                              </div>
+                              <button class="bg-orange-800 text-white font-bold py-2 px-4 rounded">
+                                Subscribe
+                              </button>
+                            
+                         
+                        
+                        </div>
+                    </div>
+                </div>
                 
-                
+              
+
             </div>
-            <!-- 4th -->
-            <div class="flex flex-col items-center sm:items-start  space-y-2 mb-4 md:w-2/5 " >
-                <h1 class="text-2xl  font-semibold">Our Contacts</h1>
-                <p>Kaybros Clobal Consulting Limited</p>
-                <p>Utalii House 10th Floor room 1020</p>
-                <p>P.O. Box 7563-00300</p>
-                <p>Nairobi-Kenya</p>
-                <p>Tell No:+254722612401/+254700136900</p>
-                <p>Email : kaybrosglobalconsulting@gmail.com</p>
-                
-            </div>
-
-       
-
-
         </div>
-    </div>
+</section>
 </template>
 
 <script setup>
