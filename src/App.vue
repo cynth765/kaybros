@@ -13,7 +13,7 @@ import Navigation from './components/Navigation.vue';
 
 
   <RouterView />
-</template>
+</template> 
 
 <style scoped>
 

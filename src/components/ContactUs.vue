@@ -1,6 +1,18 @@
+<script setup>
+import Map from './Map.vue'
+</script>
 <template>
+    <div class="section1">
+    <h1>Contact  Us</h1>
+    <hr>
 
-<section class="md:h-full flex items-center   text-white   ">
+  </div>
+  <div class="map">
+    <Map/>
+  </div>
+  
+
+ <section class="md:h-full flex items-center   text-white  bg-lime-600">
         <div class="container px-5 py-6 mx-auto">
          
             <div class="flex flex-wrap -m-4  ">
@@ -11,7 +23,7 @@
                            
                             <h1 class="text-2xl font-semibold mb-3">Contact us</h1>
                         
-                            <p class="leading-relaxed mb-3">IKaybros Clobal Consulting Limited </p>
+                            <p class="leading-relaxed mb-3">Kaybros Global Consulting Limited </p>
                             <p class="leading-relaxed mb-3">  Utalii House 10th Floor room 1020</p>
                             <p class="leading-relaxed mb-3"> P.O. Box 7563-00300</p>
                             <p class="leading-relaxed mb-3">  Nairobi-Kenya</p>
