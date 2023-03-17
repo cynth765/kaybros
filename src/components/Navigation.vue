@@ -65,4 +65,58 @@
     color: inherit;
     text-decoration: none;
   }
+  @media only screen and (min-width: 481px) and (max-width: 1024px) {
+  /* CSS for tablets with a width between 481px and 1024px, such as Android tablets */
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+  }
+  nav .menu-item {
+    color: white;
+    padding: 10px 20px;
+    position: relative;
+    text-align: center;
+    border-bottom: 3px solid transparent;
+    display: flex;
+    transition: 0.4s;
+  }
+  nav .menu-item.active,
+  nav .menu-item:hover {
+    background-color: #046473;
+    border-bottom-color: #046473;
+  }
+  nav .menu-item a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+@media only screen and (max-width: 480px) {
+  /* CSS for mobile devices with a maximum width of 480px, such as Android phones */
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+  }
+  nav .menu-item {
+    color: white;
+    padding: 10px 20px;
+    position: relative;
+    text-align: center;
+    border-bottom: 3px solid transparent;
+    display: flex;
+    transition: 0.4s;
+  }
+  nav .menu-item.active,
+  nav .menu-item:hover {
+    background-color: #046473;
+    border-bottom-color: #046473;
+  }
+  nav .menu-item a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
   </style>

@@ -23,12 +23,12 @@ import Map from './Map.vue'
                            
                             <h1 class="text-2xl font-semibold mb-3">Contact us</h1>
                         
-                            <p class="leading-relaxed mb-3">Kaybros Global Consulting Limited </p>
-                            <p class="leading-relaxed mb-3">  Utalii House 10th Floor room 1020</p>
-                            <p class="leading-relaxed mb-3"> P.O. Box 7563-00300</p>
-                            <p class="leading-relaxed mb-3">  Nairobi-Kenya</p>
-                            <p class="leading-relaxed mb-3">  Tell No:+254722612401/+254700136900</p>
-                            <p class="leading-relaxed mb-3">Email : kaybrosglobalconsulting@gmail.com.</p>
+                            <p class="leading-relaxed mb-3 ">Kaybros Global Consulting Limited </p>
+                            <p class="leading-relaxed mb-3 ">  Utalii House 10th Floor room 1020</p>
+                            <p class="leading-relaxed mb-3 "> P.O. Box 7563-00300</p>
+                            <p class="leading-relaxed mb-3 ">  Nairobi-Kenya</p>
+                            <p class="leading-relaxed mb-3 ">  Tell No:+254722612401/+254700136900</p>
+                            <p class="leading-relaxed mb-3 ">Email : kaybrosglobalconsulting@gmail.com.</p>
 
                           
                         </div>

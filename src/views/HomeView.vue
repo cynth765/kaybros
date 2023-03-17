@@ -28,6 +28,16 @@ import footer from "../components/footer.vue"
 <!-- <Slider/> -->
 
     <!-- Services -->
+    <div class="bg-cover bg-center h-screen" style="background-image: url('https://cdn.pixabay.com/photo/2015/12/12/15/24/amsterdam-1089646_1280.jpg') opacity-10">
+  <div class="h-screen flex items-center justify-center">
+    <h2 class="text-2xl md:text-3xl  font-semibold  lg:text-4xl text-center max-w-md lg:text-left mb-6 text-white">
+      KAYBROS GLOBAL CONSULTING LTD
+     </h2>
+     <h2 class="text-white text-2xl md:text-3xl "> We Nurture You</h2>
+  </div>
+  
+</div>
+
     <section class="mt-20">
       <Services />
     </section>
@@ -70,6 +80,51 @@ import footer from "../components/footer.vue"
 
   </main>
 </template>
+<style>
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+</style>
 <!-- <script>
 export default {
   name: "Slider",

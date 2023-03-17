@@ -18,10 +18,10 @@
 
                         </div>
                         <div class="p-4 sm:w-1/2 lg:w-1/2">
-                            <h2 class="text-2xl md:text-3xl  font-semibold  lg:text-4xl text-center max-w-md lg:text-left mb-6">
+                            <h2 class="text-2xl md:text-3xl  font-semibold  lg:text-4xl text-center max-w-md lg:text-left mb-6 text-black">
                                 KAYBROS GLOBAL CONSULTING LTD
                             </h2>
-                            <p class=" text-lg text-center lg:text-left max-w-md mb-6">
+                            <p class=" text-lg text-center lg:text-left max-w-md mb-6 text-black">
                                 Kaybros Global consulting ltd mission is to help you grow your company, by getting you to think about future opportunities
                             </p>
                             
