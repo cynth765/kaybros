@@ -6,11 +6,21 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue(), vueJsx()],
+  plugins: [vue()],
   commonjsOptions: {
     esmExternals: true 
  },
   resolve: {
+    extensions: [
+      ".mjs",
+      ".js",
+      ".ts",
+      ".jsx",
+      ".tsx",
+      ".json",
+      ".vue",
+      ".scss",
+    ],
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }

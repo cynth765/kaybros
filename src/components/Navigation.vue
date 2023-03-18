@@ -13,8 +13,7 @@
   </template>
   
   <script>
- import Dropdown from './D
- ropdown.vue'
+ import Dropdown from './Dropdown.vue'
   export default {
     name: 'Navigation',
     components: {
