@@ -1,6 +1,6 @@
 <template>
      <div class="section1 mt-6">
-    <h1>Human Resource Services</h1>
+    <h1>Human Resource Management</h1>
     <hr>
 
   </div>
@@ -9,7 +9,7 @@
     
         <div class="">
          
-            <h1 class="text-2xl font-semibold mb-3">Human Resource Services</h1>
+            <h1 class="text-2xl font-semibold mb-3">Human Resource Management</h1>
             <p class="leading-relaxed mb-3">It includes Recruitment, Training & Development. As a standard element of<br>  recruitment process,each candidate is assessed through a competency-based <br> interview and objectivly presented with full interview reports</p>
 
                 

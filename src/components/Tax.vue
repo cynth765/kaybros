@@ -1,6 +1,6 @@
 <template>
     <div class="section1 mt-6">
-    <h1>Tax compliance services</h1>
+    <h1>Audit and Assurance</h1>
     <hr>
 
   </div>
@@ -9,7 +9,7 @@
                
                         <div class="">
                         
-                            <h1 class="text-2xl md:text-2xl font-semibold mb-3">Tax Compliance Services</h1>
+                            <h1 class="text-2xl md:text-2xl font-semibold mb-3">Audit and Assurance</h1>
                             <p class="leading-relaxed mb-3">It Includes Tax consultation, Monthly tax returns, Annual tax returns fillings and Auditing.<br> We ensure the client business remains compliant with statutory bodies such as registrar of <br>companies, Tax Issues, County governments etc.</p>
                            
                         </div>

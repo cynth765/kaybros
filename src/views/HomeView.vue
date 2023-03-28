@@ -11,36 +11,19 @@ import footer from "../components/footer.vue"
 
 <template>
   <main class="">
-    <!-- <section>
+    <section class="mt-28">
     <Slider />
-  </section> -->
-  <!-- <section>
-  <div class="">
-    <transition-group name="fade" tag="div">
-      <div v-for="i in [currentIndex]" :key="i" class="imag">
-        <img :src="currentImg" />
-      </div>
-    </transition-group>
-    <a class="prev" @click="prev" href="#">&#10094; Previous</a>
-    <a class="next" @click="next" href="#">&#10095; Next</a>
-  </div>
-</section> -->
-<!-- <Slider/> -->
-
-    <!-- Services -->
-    <div class="bg-cover bg-center h-screen" style="background-image: url('https://cdn.pixabay.com/photo/2015/12/12/15/24/amsterdam-1089646_1280.jpg') opacity-10">
-  <div class="h-screen flex items-center justify-center">
-    <h2 class="text-2xl md:text-3xl  font-semibold  lg:text-4xl text-center max-w-md lg:text-left mb-6 text-white">
-      KAYBROS GLOBAL CONSULTING LTD
-     </h2>
-     <h2 class="text-white text-2xl md:text-3xl "> We Nurture You</h2>
-  </div>
+  </section>
   
-</div>
 
+
+
+    
+  
+<!-- 
     <section class="mt-20">
       <Services />
-    </section>
+    </section> -->
 
     <!-- Pattners -->
     <!-- <Patners /> -->
@@ -125,43 +108,66 @@ import footer from "../components/footer.vue"
 
 
 </style>
+
 <!-- <script>
 export default {
-  name: "Slider",
   data() {
     return {
       images: [
-        "https://cdn.pixabay.com/photo/2015/12/12/15/24/amsterdam-1089646_1280.jpg",
-        "https://cdn.pixabay.com/photo/2016/02/17/23/03/usa-1206240_1280.jpg",
-        
+        'https://via.placeholder.com/500x300?text=Slide+1',
+        'https://via.placeholder.com/500x300?text=Slide+2',
+        'https://via.placeholder.com/500x300?text=Slide+3',
       ],
-      timer: null,
       currentIndex: 0,
-      show: true
     };
   },
-
-  mounted: function() {
-    this.startSlide();
+  mounted() {
+    setInterval(() => {
+      this.currentIndex =
+        (this.currentIndex + 1) % this.images.length;
+    }, 3000);
   },
+};  <script>
+      let slideIndex = 0;
+      let timeoutId = null;
+      const slides = document.getElementsByClassName("mySlides");
+      const dots = document.getElementsByClassName("dot");
+      
+      showSlides();
+      function currentSlide(index) {
+           slideIndex = index;
+           showSlides();
+      }
+     function plusSlides(step) {
+        
+        if(step < 0) {
+            slideIndex -= 2;
+            
+            if(slideIndex < 0) {
+              slideIndex = slides.length - 1;
+            }
+        }
+        
+        showSlides();
+     }
+      function showSlides() {
+        for(let i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+          dots[i].classList.remove('active');
+        }
+        slideIndex++;
+        if(slideIndex > slides.length) {
+          slideIndex = 1
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].classList.add('active');
+         if(timeoutId) {
+            clearTimeout(timeoutId);
+         }
+        timeoutId = setTimeout(showSlides, 5000); // Change image every 5 seconds
+      }
+    
 
-  methods: {
-    startSlide: function() {
-      this.timer = setInterval(this.next, 4000);
-    },
 
-    next: function() {
-      this.currentIndex += 1;
-    },
-    prev: function() {
-      this.currentIndex -= 1;
-    }
-  },
 
-  computed: {
-    currentImg: function() {
-      return this.images[Math.abs(this.currentIndex) % this.images.length];
-    }
-  }
-};
 </script> -->

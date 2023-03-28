@@ -1,7 +1,7 @@
 <template>
     <nav>
       <div class="flext  items-center cursor-pointer mr-96">
-                <img class="w-16" src="./images/flogo.png" alt="" srcset=""/>
+                <img class="w-16" src="https://th.bing.com/th/id/OIP.fmafBBwHnDOnRcKJdCwGgQHaHa?pid=ImgDet&w=183&h=183&c=7" alt="" srcset=""/>
             </div>
       <div class="menu-item"><router-link to="/">Home</router-link></div>
       <div class="menu-item"><router-link to="/about">About Us</router-link></div>
@@ -23,15 +23,15 @@
       return {
         services: [
           {
-            title: 'Tax Compliance ',
+            title: 'Audit and Assurrance ',
             link: '/tax'
           },
           {
-            title: 'Human Resource ',
+            title: 'Human Resource Management ',
             link:'/resource'
           },
           {
-            title: 'Business',
+            title: 'Business Valuation',
             link: '/business'
           }
         ]
@@ -45,7 +45,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: grey;
+    background-color: black;
   }
   nav .menu-item {
     color: white;
@@ -65,21 +65,18 @@
     color: inherit;
     text-decoration: none;
   }
-  @media only screen and (min-width: 481px) and (max-width: 1024px) {
-  /* CSS for tablets with a width between 481px and 1024px, such as Android tablets */
+  @media only screen and (max-width: 1024px) {
   nav {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: stretch;
     justify-content: center;
-    background-color: grey;
   }
   nav .menu-item {
-    color: white;
-    padding: 10px 20px;
-    position: relative;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid white;
     text-align: center;
-    border-bottom: 3px solid transparent;
-    display: flex;
     transition: 0.4s;
   }
   nav .menu-item.active,
@@ -88,35 +85,13 @@
     border-bottom-color: #046473;
   }
   nav .menu-item a {
-    color: inherit;
-    text-decoration: none;
-  }
-}
-@media only screen and (max-width: 480px) {
-  /* CSS for mobile devices with a maximum width of 480px, such as Android phones */
-  nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: grey;
-  }
-  nav .menu-item {
     color: white;
-    padding: 10px 20px;
-    position: relative;
-    text-align: center;
-    border-bottom: 3px solid transparent;
-    display: flex;
-    transition: 0.4s;
-  }
-  nav .menu-item.active,
-  nav .menu-item:hover {
-    background-color: #046473;
-    border-bottom-color: #046473;
-  }
-  nav .menu-item a {
-    color: inherit;
     text-decoration: none;
   }
+  .flext {
+    margin-right: 0;
+  }
 }
+
+
   </style>

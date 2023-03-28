@@ -69,12 +69,12 @@ theory. </li>
         <tbody class="bg-white">
           <tr class="text-gray-700">
             <td class="px-4 py-3 border">
-              <div class="flex items-center text-sm">
-                <div class="relative w-8 h-8 mr-3 rounded-full md:block">
-                  <img class="object-cover w-full h-full rounded-full" src="https://images.pexels.com/photos/5212324/pexels-photo-5212324.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="" loading="lazy" />
+              <div class=" items-center text-sm">
+                <div class="relative w-20 h-20 mr-3 rounded-full md:block ml-10">
+                  <img class="object-cover w-full h-full  rounded-full mx-auto " src="https://images.pexels.com/photos/5212324/pexels-photo-5212324.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="" loading="lazy" />
                   <div class="absolute inset-0 rounded-full shadow-inner" aria-hidden="true"></div>
                 </div>
-                <div>
+                <div class="mt-10">
                   <p class="font-semibold text-black">CPA- Dominic A. Midigo</p>
                   <p class="text-xs text-gray-600">CEO</p>
                 </div>
@@ -96,12 +96,12 @@ Taxation and Audit in the firm.</p>
           </tr>
           <tr class="text-gray-700">
             <td class="px-4 py-3 border">
-              <div class="flex items-center text-sm">
-                <div class="relative w-8 h-8 mr-3 rounded-full">
+              <div class=" items-center text-sm">
+                <div class="relative  w-20 h-20 mr-3 rounded-full ml-10">
                   <img class="object-cover w-full h-full rounded-full" src="https://images.pexels.com/photos/5212324/pexels-photo-5212324.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="" loading="lazy" />
                   <div class="absolute inset-0 rounded-full shadow-inner" aria-hidden="true"></div>
                 </div>
-                <div>
+                <div class="mt-10">
                   <p class="font-semibold text-black">Francis Young Athoo (B- COM, CPA (K),)
 </p>
                   <p class="text-xs text-gray-600">CO- Founder</p>
@@ -120,12 +120,12 @@ Kenya.
           </tr>
           <tr class="text-gray-700">
             <td class="px-4 py-3 border">
-              <div class="flex items-center text-sm">
-                <div class="relative w-8 h-8 mr-3 rounded-full">
+              <div class=" items-center text-sm">
+                <div class="relative w-20 h-20 mr-3 rounded-full ml-10">
                   <img class="object-cover w-full h-full rounded-full" src="https://images.pexels.com/photos/5212324/pexels-photo-5212324.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="" loading="lazy" />
                   <div class="absolute inset-0 rounded-full shadow-inner" aria-hidden="true"></div>
                 </div>
-                <div>
+                <div class="mt-10">
                   <p class="font-semibold">Reinhard Ranji</p>
                   <p class="text-xs text-gray-600">Human Resource Manager</p>
                 </div>
@@ -172,6 +172,7 @@ export default {
   .section{
     height: 30vh;
     background-color: #046473;
+    margin-top: 10px;
 
   }
   .section h1{
@@ -186,9 +187,48 @@ export default {
   border-width: 0;
   height: 5%;
   margin-left: 300px;
-  border: 5px solid rgb(252, 253, 253);
+  border: 5px solid rgba(255,105,0,1);
   border-radius: 5px;
+  
   }
+  @media only screen and (max-width: 768px) {
+  .section h1 {
+    font-size: 30px;
+    margin-left: 20px;
+  }
+  hr {
+    margin-left: 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .ml-60 {
+    margin-left: 0;
+  }
+  .mt-20 {
+    margin-top: 1rem;
+  }
+  .text-2xl {
+    font-size: 1.5rem;
+  }
+  .leading-relaxed {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .ml-60 {
+    margin-left: 2rem;
+  }
+  .mt-20 {
+    margin-top: 2rem;
+  }
+  .text-2xl {
+    font-size: 2rem;
+  }
+  .leading-relaxed {
+    font-size: 1.25rem;
+  }
+}
   .content {
         max-height: 0;
        
