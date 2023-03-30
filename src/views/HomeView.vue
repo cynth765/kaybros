@@ -7,11 +7,12 @@ import Map from '../components/Map.vue';
 
 import Slider from '../components/Slider.vue'
 import footer from "../components/footer.vue"
+import Kabro from '../components/Kabro.vue';
 </script>
 
 <template>
   <main class="">
-    <section class="mt-28">
+    <section class="mt-2">
     <Slider />
   </section>
   
@@ -20,14 +21,8 @@ import footer from "../components/footer.vue"
 
     
   
-<!-- 
-    <section class="mt-20">
-      <Services />
-    </section> -->
 
-    <!-- Pattners -->
-    <!-- <Patners /> -->
-    <!-- Map -->
+   
     <section>
     <Map />
   </section>
@@ -35,25 +30,13 @@ import footer from "../components/footer.vue"
 
 
 
-    <!-- About Us -->
 
-  
-
-    <!-- Testimonial -->
-    <section class=" ">
-
-      <!-- <Testimonials /> -->
-        
-    </section>
-
-
-
-      <!-- Contact Us -->
-
-
-     <section class=" bg-lime-600">
+<section class=" bg-lime-600">
       <footer/>
 
+     </section>
+     <section>
+      <Kabro/>
      </section>
      
       

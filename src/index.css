@@ -388,6 +388,10 @@ hr{
   .section1 h1 {
     font-size: 30px;
     margin-left: 20px;
+
+  }
+  .section1{
+    height: 10vh;
   }
   hr {
     margin-left: 20px;

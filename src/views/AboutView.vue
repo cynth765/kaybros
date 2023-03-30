@@ -195,6 +195,10 @@ export default {
   .section h1 {
     font-size: 30px;
     margin-left: 20px;
+
+  }
+  .section{
+    height: 10vh;
   }
   hr {
     margin-left: 20px;
