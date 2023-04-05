@@ -5,7 +5,7 @@
                 <h1 class="text-4xl md:text-4xl text-gray-700 font-semibold">Services</h1>
             </div>
             <div class="flex flex-wrap -m-4">
-                <div class="p-4 sm:w-1/2 lg:w-1/4">
+                <div class="py-10 sm:w-1/2 lg:w-1/4">
                     <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                         <img class="mx-12 object-cover object-center h-auto max-w-full rounded-lg"
                             src="https://www.mgkconsult.co.ke/wp-content/uploads/2022/10/Tax-consultancy-services-in-kenya.webp" alt="blog">
@@ -22,7 +22,7 @@
                     </router-link>
                     </div>
                 </div>
-                <div class="p-4 sm:w-1/2 lg:w-1/4">
+                <div class="py-10 ml-32 sm:w-1/2 lg:w-1/4">
                     <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                         <img class=" mx-12 object-cover object-center"
                             src="https://www.mgkconsult.co.ke/wp-content/uploads/2022/10/Business-Outsourced-services-in-Kenya.webp" alt="blog">
@@ -40,7 +40,7 @@
                     </router-link>
                     </div>
                 </div>
-                <div class="p-4 sm:w-1/2 lg:w-1/4">
+                <div class="py-10 ml-32 sm:w-1/2 lg:w-1/4">
                     <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                         <img class="mx-12 object-cover object-center"
                             src="https://www.mgkconsult.co.ke/wp-content/uploads/2022/10/Audit-and-Assurance-services-in-kenya.webp" alt="blog">

@@ -2,7 +2,7 @@
 
 <template>
   
-  <div class="section">
+  <div class="section1">
     <h1>About Us</h1>
     <hr>
 
@@ -55,33 +55,32 @@ theory. </li>
         </Accordion>
      
     <Accordion title="Our Team">
-      <section class="container mx-auto p-6 font-mono">
-  <div class="w-full mb-8 overflow-hidden rounded-lg shadow-lg">
-    <div class="w-full overflow-x-auto">
-      <table class="w-full">
-        <thead>
-          <tr class="text-md font-semibold tracking-wide text-left text-gray-900  uppercase border-b border-gray-600">
-            <th class="px-4 py-3"></th>
-            <th class="px-4 py-3"></th>
-            
-          </tr>
-        </thead>
-        <tbody class="bg-white">
-          <tr class="text-gray-700">
-            <td class="px-4 py-3 border">
-              <div class=" items-center text-sm">
-                <div class="relative w-20 h-20 mr-3 rounded-full md:block ml-10">
-                  <img class="object-cover w-full h-full  rounded-full mx-auto " src="https://images.pexels.com/photos/5212324/pexels-photo-5212324.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="" loading="lazy" />
+      <div class="w-full lg:w-1/2 mx-auto">
+  <div class="bg-white shadow-md rounded my-6">
+    <table class="text-left w-full border-collapse">
+      <thead>
+        <tr>
+          <th class="py-4 px-6 bg-grey-lightest font-bold uppercase text-sm text-grey-dark border-b border-grey-light"></th>
+          <th class="py-4 px-6 bg-grey-lightest font-bold uppercase text-sm text-grey-dark border-b border-grey-light"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="hover:bg-grey-lighter">
+          <td class="py-4 px-6 border-b border-grey-light">
+            <div class=" items-center">
+                <div class="relative  w-20 h-20 mr-3 rounded-full ml-10">
+                  <img class="object-cover w-full h-full rounded-full" src="https://images.pexels.com/photos/5212324/pexels-photo-5212324.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="" loading="lazy" />
                   <div class="absolute inset-0 rounded-full shadow-inner" aria-hidden="true"></div>
                 </div>
-                <div class="mt-10">
-                  <p class="font-semibold text-black">CPA- Dominic A. Midigo</p>
-                  <p class="text-xs text-gray-600">CEO</p>
-                </div>
+              <div>
+                <p class="font-bold">CPA- Dominic A. Midigo</p>
+                <p>CEO</p>
               </div>
-            </td>
-            <td class="px-4 py-3 text-ms font-semibold border">
-              <p>Mr. Midigo holds MSC- Finance from the University of Nairobi
+            </div>
+          </td>
+          <td class="py-4 px-6 border-b border-grey-light ml-10">
+            <p>
+                Mr. Midigo holds MSC- Finance from the University of Nairobi
 , B.Com (Finance), CPA-K, CPS-K and currently undertaking PHD degree.
 He has over 20 years’ hands on working experience. He has held Head of department responsible 
 positions in leading companies among them; Shear logic Management consultant’s ltd, Catholic 
@@ -90,61 +89,58 @@ consultants Kenya.
 He is a member of the Institute of Certified Public Accountants of Kenya. He has widely 
 traveled and has attended many international seminars and workshops. He is
 currently the Managing Partner of the firm. He is the lead Partner in charge of quality Assurance, 
-Taxation and Audit in the firm.</p>
-</td>
-            
-          </tr>
-          <tr class="text-gray-700">
-            <td class="px-4 py-3 border">
-              <div class=" items-center text-sm">
+Taxation and Audit in the firm.
+            </p>
+          </td>
+        </tr>
+        <tr class="hover:bg-grey-lighter">
+          <td class="py-4 px-6 border-b border-grey-light">
+            <div class=" items-center">
                 <div class="relative  w-20 h-20 mr-3 rounded-full ml-10">
                   <img class="object-cover w-full h-full rounded-full" src="https://images.pexels.com/photos/5212324/pexels-photo-5212324.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="" loading="lazy" />
                   <div class="absolute inset-0 rounded-full shadow-inner" aria-hidden="true"></div>
                 </div>
-                <div class="mt-10">
-                  <p class="font-semibold text-black">Francis Young Athoo (B- COM, CPA (K),)
-</p>
-                  <p class="text-xs text-gray-600">CO- Founder</p>
-                </div>
+              <div>
+                <p class="font-bold">Francis Young Athoo (B- COM, CPA (K),)</p>
+                <p>CO-Founder</p>
               </div>
-            </td>
-            <td class="px-4 py-3 text-md font-semibold border">
-              <p>
+            </div>
+          </td>
+          <td class="py-4 px-6 border-b border-grey-light">
+            <p>
                 He holds a B.Com degree in Business Administration, and CPA (K).
 He has worked for various leading Organizations among them; Action aid Kenya, Sheer logic 
 Management consultants. He is a member of the institute of Certified Public Accountants of 
 Kenya.
               </p>
-            </td>
-           
-          </tr>
-          <tr class="text-gray-700">
-            <td class="px-4 py-3 border">
-              <div class=" items-center text-sm">
-                <div class="relative w-20 h-20 mr-3 rounded-full ml-10">
+
+          </td>
+        </tr>
+        <tr class="hover:bg-grey-lighter">
+          <td class="py-4 px-6 border-b border-grey-light">
+            <div class=" items-center">
+                <div class="relative  w-20 h-20 mr-3 rounded-full ml-10">
                   <img class="object-cover w-full h-full rounded-full" src="https://images.pexels.com/photos/5212324/pexels-photo-5212324.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="" loading="lazy" />
                   <div class="absolute inset-0 rounded-full shadow-inner" aria-hidden="true"></div>
                 </div>
-                <div class="mt-10">
-                  <p class="font-semibold">Reinhard Ranji</p>
-                  <p class="text-xs text-gray-600">Human Resource Manager</p>
-                </div>
+              <div>
+                <p class="font-bold">Reinhard Ranji</p>
+                <p>Human Resource Manager</p>
               </div>
-            </td>
-            <td class="px-4 py-3 text-md font-semibold border">
-              <p>Mr. Ranji holds a BBM degree in Human resource management. He has over 15 years’ 
+            </div>
+          </td>
+          <td class="py-4 px-6 border-b border-grey-light">
+            <p>Mr. Ranji holds a BBM degree in Human resource management. He has over 15 years’ 
 experience in human resource management with various companies. He is a member of the 
 Institute of human resource management of Kenya (HRM). 
 </p>
-            </td>
-   
-          </tr>
-         
-        </tbody>
-      </table>
-    </div>
+
+          </td>
+        </tr>
+      </tbody>
+    </table>
   </div>
-</section>
+</div>
     </Accordion>
   </div>
 </template>
@@ -162,15 +158,13 @@ export default {
 <style>
 @media (min-width: 1024px) {
   .about {
-    /* min-height: 100vh;
-    display: flex;
-    align-items: center; */
+    
     margin-left: 150px;
     margin-top: 100px;
     margin-right: 150px;
   }
   .section{
-    height: 30vh;
+    height: 10vh;
     background-color: #046473;
     margin-top: 10px;
 
@@ -198,10 +192,18 @@ export default {
 
   }
   .section{
-    height: 10vh;
+    height: 6vh;
+    margin-top: 20px;
   }
   hr {
-    margin-left: 20px;
+    width: 6.8%;
+    
+  text-align: left;
+  border-width: 0;
+  height: 5%;
+  margin-left: 20px;
+  border: 5px solid rgba(255,105,0,1);
+  border-radius: 5px;
   }
 }
 @media only screen and (max-width: 767px) {

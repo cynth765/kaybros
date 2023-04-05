@@ -391,10 +391,18 @@ hr{
 
   }
   .section1{
-    height: 10vh;
+    height: 6vh;
+    margin-top: 20px;
   }
   hr {
-    margin-left: 20px;
+    width: 6.8%;
+    
+  text-align: left;
+  border-width: 0;
+  height: 5%;
+  margin-left: 20px;
+  border: 5px solid rgba(255,105,0,1);
+  border-radius: 5px;
   }
 }
 @media only screen and (max-width: 767px) {

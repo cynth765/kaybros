@@ -23,8 +23,8 @@ export default {
     return {
       images: [
         'https://images.pexels.com/photos/3214958/pexels-photo-3214958.jpeg?auto=compress&cs=tinysrgb&w=600',
-        'https://images.pexels.com/photos/1098365/pexels-photo-1098365.jpeg?auto=compress&cs=tinysrgb&w=600',
-        'https://images.pexels.com/photos/1819657/pexels-photo-1819657.jpeg?auto=compress&cs=tinysrgb&w=600',
+        'https://th.bing.com/th/id/OIP.GRsKIUviLFT5gNYYg_dmOQHaJ4?pid=ImgDet&rs=1',
+        'https://fastly.4sqi.net/img/general/600x600/12584574_ySbb2B-kyrU-CYEaN7sLx2_wLWr9N_YOruSpnpYGaoI.jpg',
       ]
     }
   },
@@ -47,9 +47,9 @@ div[h-full] {
   background-image: url('https://images.pexels.com/photos/3214958/pexels-photo-3214958.jpeg?auto=compress&cs=tinysrgb&w=600');
 }
 div[h-full]:nth-of-type(2) {
-  background-image: url('https://images.pexels.com/photos/1098365/pexels-photo-1098365.jpeg?auto=compress&cs=tinysrgb&w=600');
+  background-image: url('https://th.bing.com/th/id/OIP.GRsKIUviLFT5gNYYg_dmOQHaJ4?pid=ImgDet&rs=1');
 }
 div[h-full]:nth-of-type(3) {
-  background-image: url('https://images.pexels.com/photos/1819657/pexels-photo-1819657.jpeg?auto=compress&cs=tinysrgb&w=600');
+  background-image: url('https://fastly.4sqi.net/img/general/600x600/12584574_ySbb2B-kyrU-CYEaN7sLx2_wLWr9N_YOruSpnpYGaoI.jpg');
 }
 </style>

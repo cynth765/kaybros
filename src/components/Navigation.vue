@@ -1,7 +1,7 @@
 <template>
     <nav>
       <div class="flext  items-center cursor-pointer mr-96">
-                <img class="w-16" src="https://th.bing.com/th/id/OIP.fmafBBwHnDOnRcKJdCwGgQHaHa?pid=ImgDet&w=183&h=183&c=7" alt="" srcset=""/>
+                <img class="rounded-full w-10" src="https://th.bing.com/th/id/OIP.fmafBBwHnDOnRcKJdCwGgQHaHa?pid=ImgDet&w=183&h=183&c=7" alt="" srcset=""/>
             </div>
       <div class="menu-item"><router-link to="/">Home</router-link></div>
       <div class="menu-item"><router-link to="/about">About Us</router-link></div>
