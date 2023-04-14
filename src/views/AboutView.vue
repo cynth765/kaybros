@@ -55,7 +55,7 @@ theory. </li>
         </Accordion>
      
     <Accordion title="Our Team">
-      <div class="w-full lg:w-1/2 mx-auto">
+      <div class="w-full  ">
   <div class="bg-white shadow-md rounded my-6">
     <table class="text-left w-full border-collapse">
       <thead>
