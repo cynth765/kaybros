@@ -22,9 +22,9 @@ export default {
   data() {
     return {
       images: [
-        'https://images.pexels.com/photos/3214958/pexels-photo-3214958.jpeg?auto=compress&cs=tinysrgb&w=600',
-        'https://th.bing.com/th/id/OIP.GRsKIUviLFT5gNYYg_dmOQHaJ4?pid=ImgDet&rs=1',
-        'https://fastly.4sqi.net/img/general/600x600/12584574_ySbb2B-kyrU-CYEaN7sLx2_wLWr9N_YOruSpnpYGaoI.jpg',
+        'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGFjY291bnRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
+        'https://images.pexels.com/photos/7063765/pexels-photo-7063765.jpeg?auto=compress&cs=tinysrgb&w=600',
+        'https://images.unsplash.com/photo-1554224155-3a58922a22c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGFjY291bnRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
       ]
     }
   },
@@ -44,12 +44,12 @@ export default {
 <style scoped>
 /* Set background images */
 div[h-full] {
-  background-image: url('https://images.pexels.com/photos/3214958/pexels-photo-3214958.jpeg?auto=compress&cs=tinysrgb&w=600');
+  background-image: url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGFjY291bnRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
 }
 div[h-full]:nth-of-type(2) {
-  background-image: url('https://th.bing.com/th/id/OIP.GRsKIUviLFT5gNYYg_dmOQHaJ4?pid=ImgDet&rs=1');
+  background-image: url('https://images.pexels.com/photos/7063765/pexels-photo-7063765.jpeg?auto=compress&cs=tinysrgb&w=600');
 }
 div[h-full]:nth-of-type(3) {
-  background-image: url('https://fastly.4sqi.net/img/general/600x600/12584574_ySbb2B-kyrU-CYEaN7sLx2_wLWr9N_YOruSpnpYGaoI.jpg');
+  background-image: url('https://images.unsplash.com/photo-1554224155-3a58922a22c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGFjY291bnRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
 }
 </style>

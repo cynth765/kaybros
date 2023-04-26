@@ -42,14 +42,15 @@
                           
                             <div class="flex items-center flex-wrap  space-x-3   ">
                                 <span class=" ">
-                                    <img  class="h-12" src="./images/facebook.png" alt="" srcset="">
+                                    <a href="https://www.facebook.com/"><img  class="h-12" src="./images/facebook.png" alt="" srcset=""></a>
+                                    
                                 </span>
                              
                                 <span class="">
-                                    <img  class="h-12" src="./images/LinkedIng.png" alt="" srcset="">
+                                    <a href="https://www.linkedin.com/"><img  class="h-12" src="./images/LinkedIng.png" alt="" srcset=""></a>
                                 </span>
                                 <span class="">
-                                    <img  class="h-12 rounded-full" src="./images/download.png" alt="" srcset="">
+                                    <a href="https://twitter.com/i/flow/login"><img  class="h-12 rounded-full" src="./images/download.png" alt="" srcset=""></a>
 
                                  
                                 </span>

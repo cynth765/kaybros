@@ -69,7 +69,7 @@ theory. </li>
           <td class="py-4 px-6 border-b border-grey-light">
             <div class=" items-center">
                 <div class="relative  w-20 h-20 mr-3 rounded-full ml-10">
-                  <img class="object-cover w-full h-full rounded-full" src="https://images.pexels.com/photos/5212324/pexels-photo-5212324.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="" loading="lazy" />
+                  <img class="object-cover w-full h-full rounded-full" src="./images/photo_2023-04-26_10-02-27.jpg" alt="" loading="lazy" />
                   <div class="absolute inset-0 rounded-full shadow-inner" aria-hidden="true"></div>
                 </div>
               <div>
@@ -97,7 +97,7 @@ Taxation and Audit in the firm.
           <td class="py-4 px-6 border-b border-grey-light">
             <div class=" items-center">
                 <div class="relative  w-20 h-20 mr-3 rounded-full ml-10">
-                  <img class="object-cover w-full h-full rounded-full" src="https://images.pexels.com/photos/5212324/pexels-photo-5212324.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="" loading="lazy" />
+                  <img class="object-cover w-full h-full rounded-full" src="./images/photo_2023-04-26_10-01-54.jpg" alt="" loading="lazy" />
                   <div class="absolute inset-0 rounded-full shadow-inner" aria-hidden="true"></div>
                 </div>
               <div>

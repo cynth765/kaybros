@@ -1,7 +1,7 @@
 <template>
     <div
   class="block max-w-md rounded-lg bg-white p-6 shadow-lg dark:bg-neutral-700">
-  <form>
+  <form action="/send-email" method="POST">
     <div class="relative mb-6" data-te-input-wrapper-init>
       <input
         type="text"

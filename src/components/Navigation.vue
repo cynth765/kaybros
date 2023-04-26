@@ -6,7 +6,7 @@
       <div class="menu-item"><router-link to="/">Home</router-link></div>
       <div class="menu-item"><router-link to="/about">About Us</router-link></div>
       <Dropdown title="Services" :items="services" />
-      <div class="menu-item"><router-link to="/industries">KGC Foundation</router-link></div>
+      <!-- <div class="menu-item"><router-link to="/industries">KGC Foundation</router-link></div> -->
       <div class="menu-item"><router-link to="/contact">Countact Us</router-link></div>
       
     </nav>
